@@ -1,5 +1,12 @@
 # FlowDesk (Opsrift) — AI-Powered Workspace & Operations Management System
 
+> [!IMPORTANT]
+> **🚀 Built specifically for the Tayo360 Full Stack Developer Interview**  
+> This project was built from scratch as a custom technical demonstration for the Tayo360 team (specifically addressing the founder, Asheik, and the platform's requirements). It implements 100% of the core features requested in the job description: user management, role-based permissions (RBAC), scheduling workflows, documentation workflows, dashboard reporting, automated cron escalations, and six Gemini AI-powered workflow automation features.
+> 
+> *This repository serves as a live demonstration of Mustopha's full-stack development skills, architectural design capabilities, and passion for the scheduling/documentation space.*
+
+## 🌟 About the Project
 FlowDesk (Opsrift) is a dynamic scheduling and operations management platform designed to streamline workspace execution, task delegation, and report generation. The system is split into an **Express + TypeScript Backend** and a **Vite + React + Vanilla CSS Frontend**, equipped with **Gemini AI** capabilities to assist with task breaking, document refinements, prioritizations, and weekly summaries.
 
 ---
