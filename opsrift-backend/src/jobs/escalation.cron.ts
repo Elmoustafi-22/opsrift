@@ -18,7 +18,7 @@ export const initEscalationCron = async () => {
         
         // Find tasks that need to be escalated
         const tasksToEscalate = await Task.find({
-          status: "inprogress",
+          status: { $in: ["pending", "inprogress"] },
           dueDate: { $lt: cutoff },
         });
 
